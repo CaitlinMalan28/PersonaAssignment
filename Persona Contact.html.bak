@@ -1,0 +1,168 @@
+<html>
+
+<head>
+
+	<title>Persona Contact</title>
+
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+	
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link href="personastyle.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<header class = "header">
+		<nav class="navbar">
+			<a href="Persona Home.html"> HOME <//a>
+			<a href="Persona About.html"> ABOUT</a>
+			<a href="Persona Blog.html"> BLOG </a>
+			<a id="logo">Pers<i class="bx bxs-leaf" id="symbol"></i>na</a>
+			<a href="Persona Products.html"> PRODUCTS </a>	
+			<a href="Persona Order.html"> ORDER </a>
+			<a href="Persona Contact.html"> CONTACT </a>
+		</nav>
+	</header>
+	
+	<!--contact section design-->
+
+    <main class="contact">
+        <div class="contact-content">
+		
+			<div class="contact-infomation">
+				<h1> Contact infomation </h1>
+				
+				<h2>EMAIL ADDRESS</h2>
+				<p>g0ldenperson&@gmail.com</p>
+				
+				<h2>SOCIAL MEDIA PLATFORMS</h2>
+				<div class="social-media">
+					<ul>
+						<li><i class='bx bxl-instagram'></i></li>
+						<li><i class='bx bxl-facebook-square'></i></li>
+						<li><i class='bx bxl-pinterest'></i></li>
+						<li><i class='bx bxl-twitter' ></i></box-icon></li>
+					</ul>
+				</div>
+				
+				<h2>AVAILABLE HOURS</h2>
+				<p>Mondays to Fridays</p>
+				<p>09:00am - 17:00pm</p>
+			</div>
+			
+			<div class="customer-inquiry">
+				
+				<ul>
+					
+					<li>
+						<input type="text" id="first-name" value="" placeholder="First Name">
+						<input type="text" id="last-name" value="" placeholder="Last Name" >
+					</li>
+					
+					<li>
+						<input type="email" id="email" value="" placeholder="Email Address">
+					</li>
+					
+					<li>
+						<textarea id="contact" name="message" rows="6" placeholder="Type Here..."></textarea>
+					</li>
+					
+					<li>
+					<form method=post action="/cgi-bin/example.cgi">
+						<p>Inquiry Type:</p>
+					
+						<select>
+							<option> option 1 </option>
+							<option selected> option 2 </option>
+							<option> option 3 </option>
+							<option> option 4 </option>
+							<option> option 5 </option>
+							<option> option 6 </option>
+						</select>
+					</form>
+					
+					<li>
+					
+					<li>
+						<button>Send</button>
+					</li>
+			</ul>
+			</div>
+			
+		</div>
+	</main>
+	
+	<footer>
+	
+		<ul>
+			<li>
+			<a id="logo">Pers<i class="bx bxs-leaf" id="symbol"></i>na</a>
+			</li>
+		</ul>
+	
+	
+	   <ul>
+			<li>
+				<h2> Information </h2>
+			</li>
+			
+			<li>
+				<p> About </p>
+			</li>
+			
+			<li>
+				<p> Blog </p>
+			</li>
+			
+			<li>
+				<p> Products </p>
+			</li>
+			
+			<li>
+				<p> Order </p>
+			</li>
+			
+			<li>
+				<p> Contact </p>
+			</li>
+			
+		</ul>
+		
+		<ul>
+		
+			<li>
+				<h2> Service </h2>
+			</li>
+			
+			<li>
+				<p> Brands List </p>
+			</li>
+			
+			<li>
+				<p> Order </p>
+			</li>
+			
+			<li>
+				<p> Return & Exchange </p>
+			</li>
+			
+			<li>
+				<p> Jewellry List </p>
+			</li>
+			
+			<li>
+				<p> Blog </p>
+			</li>
+			
+		</ul>
+	</footer>
+	
+	<footer class="copyright-claims">
+		<p>2023 &copy Persona.Ltd | All Rights Reserved</p>
+	</footer>
+</body>
+
+</html>
